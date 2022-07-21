@@ -1,0 +1,42 @@
+.container {
+  position: absolute;
+  top: 250px;
+  left: 250px;
+}
+
+.btn {
+  cursor: pointer;
+  color: #fff;
+  background-color: #2580d4;
+  border-color: #2580d4;
+  display: inline-block;
+  width: 120px;
+  line-height: 1;
+  text-align: center;
+  border: 1px solid transparent;
+  border-radius: 0.25rem;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out,
+    border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+span b {
+  position: relative;
+  font-weight: bold;
+  font-size: 1em;
+  text-align: center;
+  top: 13px;
+}
+
+.badge {
+  position: relative;
+  top: -30px;
+  left: 100px;
+  display: block;
+  width: 30px;
+  height: 30px;
+  border-radius: 15px;
+  background-color: #020202;
+  text-align: center;
+  line-height: 30px;
+  font-weight: bold;
+}
